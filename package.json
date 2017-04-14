@@ -4,11 +4,28 @@
   "description": "Sample Redux Node app",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "rory.devane@gmail.com",
   "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "react-hot-loader": "^1.3.1",
+    "webpack": "^2.3.3",
+    "webpack-dev-middleware": "^1.10.1",
+    "webpack-dev-server": "^2.4.2",
+    "webpack-hot-middleware": "^2.18.0"
+  },
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.4",
+    "redux": "^3.6.0"
   }
 }
