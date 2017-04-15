@@ -1,3 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './containers/App';
 
-React.render(<h1>Index.js in the title using react</h1>, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
