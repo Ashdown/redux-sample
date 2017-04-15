@@ -6,7 +6,7 @@
     "start": "node app.js",
     "test": "jest",
     "test:watch": "npm test -- --watch",
-    "test:feature": "./node_modules/.bin/mocha --reporter spec"
+    "test:feature": "./node_modules/.bin/mocha test/feature --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,9 @@
   "author": "Rory Devane rory.devane@gmail.com",
   "license": "MIT",
   "homepage": "http://www.rorydevane.com",
+  "jest": {
+    "testMatch": ["**/test/unit/**/*.js?(x)"]
+  },
   "devDependencies": {
     "babel-core": "^6.0.20",
     "babel-eslint": "^4.1.3",
