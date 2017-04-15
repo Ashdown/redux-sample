@@ -1,31 +1,41 @@
 {
   "name": "redux-sample",
-  "version": "0.0.1",
-  "description": "Sample Redux Node app",
-  "main": "app.js",
+  "version": "1.0.0",
+  "description": "Simple Redux Node app",
   "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "author": "rory.devane@gmail.com",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaearon/react-hot-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "node"
+  ],
+  "author": "Rory Devane rory.devane@gmail.com",
+  "license": "MIT",
+  "homepage": "http://www.rorydevane.com",
   "devDependencies": {
-    "babel-core": "^6.24.1",
-    "babel-loader": "^6.4.1",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "extract-text-webpack-plugin": "^2.1.0",
-    "react-hot-loader": "^1.3.1",
-    "webpack": "^2.3.3",
-    "webpack-dev-middleware": "^1.10.1",
-    "webpack-dev-server": "^2.4.2",
-    "webpack-hot-middleware": "^2.18.0"
+    "babel-core": "^6.0.20",
+    "babel-eslint": "^4.1.3",
+    "babel-loader": "^6.0.1",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "babel-preset-stage-0": "^6.0.15",
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^3.6.2",
+    "express": "^4.13.4",
+    "react-hot-loader": "^1.3.0",
+    "redux-devtools": "^1.0.2",
+    "webpack": "^1.12.2",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-hot-middleware": "^2.10.0"
   },
   "dependencies": {
-    "express": "^4.15.2",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "react-redux": "^5.0.4",
-    "redux": "^3.6.0"
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "react-redux": "^5.0.3",
+    "redux": "^1.0.0-rc"
   }
 }

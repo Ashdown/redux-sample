@@ -27,13 +27,13 @@ module.exports = {
     loaders: [
       {
         test: /\.jsx?$/,
-        loaders: ['react-hot-loader', 'babel-loader'],
+        loaders: ['react-hot', 'babel'],
         include: path.join(__dirname, 'src')
       },
       { test: /\.css$/, loader: ExtractTextPlugin.extract('css-loader?module!cssnext-loader') }
     ]
   },
   resolve: {
-    extensions: ['.js']
+    extensions: ['', '.js', '.json']
   }
 };
