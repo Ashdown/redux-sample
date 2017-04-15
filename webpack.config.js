@@ -8,7 +8,7 @@ var devFlagPlugin = new webpack.DefinePlugin({
 module.exports = {
   devtool: 'eval',
   entry: [
-    'webpack-dev-server/client?http://localhost:3000',
+    'webpack-dev-server/client?http://localhost:4000',
     'webpack/hot/only-dev-server',
     './src/index'
   ],
@@ -28,7 +28,8 @@ module.exports = {
       {
         test: /\.jsx?$/,
         loaders: ['react-hot', 'babel'],
-        include: path.join(__dirname, 'src')
+        include: path.join(__dirname, 'src'),
+        exclude: /node_modules/
       },
       { test: /\.css$/, loader: ExtractTextPlugin.extract('css-loader?module!cssnext-loader') }
     ]

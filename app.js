@@ -15,5 +15,5 @@ app.get('/test', function(req,res){
     res.send(JSON.stringify({ a: 1 }));
 });
 
-app.listen(4000);
+app.listen(3000);
 
