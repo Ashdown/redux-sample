@@ -9,6 +9,7 @@ Web app to test redux implementation techniques
 * Feature Tests with Chai
 * Unit Tests with Jest
 * SCSS asset path
+* EJS for html templating
 * Hosted on Heroku
     
 Run it locally

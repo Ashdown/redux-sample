@@ -13,3 +13,4 @@ new WebpackDevServer(webpack(config), {
     console.log('dev server Listening at localhost:4000');
 });
 
+
