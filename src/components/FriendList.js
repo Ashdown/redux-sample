@@ -3,6 +3,8 @@ import mapValues from 'lodash/object/mapValues';
 
 import FriendListItem from './FriendListItem';
 
+import styles from './FriendList.scss';
+
 export default class FriendList extends Component {
     static propTypes = {
         friends: PropTypes.object.isRequired,
@@ -11,7 +13,7 @@ export default class FriendList extends Component {
 
     render () {
         return (
-            <ul className="">
+            <ul className={styles.friendList}>
                 {
                     mapValues(this.props.friends, (friend) => {
                         return (<FriendListItem
