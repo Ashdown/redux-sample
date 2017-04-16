@@ -1,4 +1,6 @@
 import React, { Component, PropTypes } from 'react';
+import classnames from 'classnames';
+import styles from './AddFriendInput.css';
 
 export default class AddFriendInput extends Component {
     static propTypes = {
@@ -10,7 +12,7 @@ export default class AddFriendInput extends Component {
             <input
                 type="text"
                 autoFocus="true"
-                className="test"
+                className={classnames('form-control', styles.addFriendInput)}
                 placeholder="Type the name of a friend"
                 value={this.state.name}
                 onChange={this.handleChange.bind(this)}

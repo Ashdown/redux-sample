@@ -31,7 +31,9 @@ module.exports = {
         include: path.join(__dirname, 'src'),
         exclude: /node_modules/
       },
-      { test: /\.css$/, loader: ExtractTextPlugin.extract('css-loader?module!cssnext-loader') }
+      {
+        test: /\.css$/,
+        loader: ExtractTextPlugin.extract('css-loader?module!cssnext-loader') }
     ]
   },
   resolve: {
