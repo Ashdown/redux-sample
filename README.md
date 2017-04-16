@@ -26,6 +26,10 @@ Run Tests
 Deploy instructions
 -------------------
 
+Build Static Files
+
+    `./node_modules/.bin/webpack -p`
+
 TODO
 
 Links

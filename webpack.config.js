@@ -13,15 +13,15 @@ module.exports = {
         './src/index'
     ],
     output: {
-        path: path.join(__dirname, 'dist'),
-        filename: 'bundle.js',
+        path: path.join(__dirname, 'public'),
+        filename: 'index.js',
         publicPath: '/static/'
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
         new webpack.NoErrorsPlugin(),
         devFlagPlugin,
-        new ExtractTextPlugin('app.css')
+        new ExtractTextPlugin('index.css')
     ],
     module: {
         loaders: [

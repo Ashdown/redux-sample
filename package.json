@@ -6,7 +6,8 @@
     "start": "node app.js",
     "test": "jest",
     "test:watch": "npm test -- --watch",
-    "test:feature": "./node_modules/.bin/mocha test/feature --reporter spec"
+    "test:feature": "./node_modules/.bin/mocha test/feature --reporter spec",
+    "build": "./node_modules/.bin/webpack -p"
   },
   "repository": {
     "type": "git",

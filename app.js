@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var path = require('path');
 
-require('./dev-server')
+require('./dev-server');
 
 //html endpoint
 
