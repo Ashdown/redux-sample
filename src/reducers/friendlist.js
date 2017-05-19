@@ -36,7 +36,7 @@ export default function friends(state = initialState, action) {
                         name: action.name
                     }
                 },
-            }
+            };
 
         case types.DELETE_FRIEND:
             return {
